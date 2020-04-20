@@ -1,14 +1,14 @@
 # template-vue-component
 
-> A template to create a vue component
+> A template for building a vue component based on vue and rollup.
 
 ### Usage
 
 This is a project template for [x-cli](https://github.com/whu-luojian/x-cli).
 
 ``` bash
-$ yarn add -g @yanluo/x-cli
-$ x init vue-template my-project
+$ npm install -g @yanluo/x-cli
+$ x init vue-component my-project
 $ cd my-project
 $ yarn install
 $ yarn build
