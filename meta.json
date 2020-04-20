@@ -1,0 +1,20 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Project name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project description",
+      "default": "A vue component"
+    },
+    "author": {
+      "type": "string",
+      "label": "Author"
+    }
+  },
+  "completeMessage": "{{#inPlace}}To get started:\n\n  yarn install\n  yarn build{{else}}To get started:\n\n  cd {{destDirName}}\n  yarn install\n  yarn build{{/inPlace}}"
+}
