@@ -12,7 +12,7 @@
   },
   "keywords": ["vue", "template"],
   "author": "whu-luojian",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/whu-luojian/template-vue-component/issues"
   },
