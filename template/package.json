@@ -20,7 +20,7 @@
     "component"
   ],
   "author": "{{ author }}",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "/dist",
     "/lib"
