@@ -18,9 +18,9 @@ then
     yarn version --new-version $VERSION --no-git-tag-version --allow-same-version
 
     # 打 tag && 生成变更日志
-    git tag v$VERSION
     yarn changelog
     git commit -am "release: $VERSION" --no-verify
+    git tag v$VERSION
 
     # 提交代码
     git push origin master
