@@ -4,17 +4,41 @@
   "description": "> A template for building a vue component based on vue and rollup.",
   "main": "index.js",
   "scripts": {
+    "changelog": "conventional-changelog -p custom-config-2 -i CHANGELOG.md -s -r 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/whu-luojian/template-vue-component.git"
   },
-  "keywords": ["vue", "template"],
+  "keywords": [
+    "vue",
+    "template"
+  ],
   "author": "whu-luojian",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/whu-luojian/template-vue-component/issues"
   },
-  "homepage": "https://github.com/whu-luojian/template-vue-component#readme"
+  "homepage": "https://github.com/whu-luojian/template-vue-component#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "conventional-changelog-cli": "^2.0.31",
+    "conventional-changelog-custom-config-2": "^0.4.0",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "changelog": {
+    "authorName": true,
+    "emojis": true,
+    "commitTypes": [
+      "feat",
+      "fix"
+    ]
+  }
 }
