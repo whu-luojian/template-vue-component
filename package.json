@@ -1,10 +1,10 @@
 {
   "name": "template-vue-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> A template for building a vue component based on vue and rollup.",
   "main": "index.js",
   "scripts": {
-    "changelog": "conventional-changelog -p custom-config-2 -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p custom-config-2 -i CHANGELOG.md -s",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
