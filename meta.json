@@ -16,5 +16,6 @@
       "label": "Author"
     }
   },
+  "skipInterpolation": "src/**/*.(vue|ts|less|css)",
   "completeMessage": "{{#inPlace}}To get started:\n\n  yarn install\n  yarn build{{else}}To get started:\n\n  cd {{destDirName}}\n  yarn install\n  yarn build{{/inPlace}}"
 }
